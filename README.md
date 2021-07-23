@@ -1,4 +1,6 @@
-# ASCII_Art
+<img src="https://raw.githubusercontent.com/dawsonbooth/ascii-art/master/logo.png" width="400" align="right"/>
+
+# ASCII_Art✔
 ### Ascii Art created only with PIL(Pillow) &amp; with minimal code. Includes optional image enhancer.
 
 A program encasing minimal code to convert an image (or a collection of images, or a folder full of images) to ASCII Art and display it on your terminal. Or.... you could also convert and store the ASCII Art on a text file (code included for it). The program uses only [PIL (Pillow)](https://pillow.readthedocs.io/en/stable/) to perform the art, and ofcourse [sys module](https://docs.python.org/3/library/sys.html) for the folder containing images to be converted to beautiful art. I have also included and optional [Image Enhancer/ Image Filter](https://github.com/adrinorosario/ASCII_Art/tree/main/Image%20Enhancer) for your use.
