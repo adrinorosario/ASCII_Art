@@ -4,8 +4,13 @@ import os
 
 image_folder = sys.argv[1]
 
-ASCII_CHARS = ["@", "#", "$", "%", "?", "*", "+", ";", ":", ",", "."]
-
+ASCII_CHARS = ["@", "#", "$", "%", "?", "*", "+", ";", ":", ",", ".",
+               '-', '_', '+', '<', '>', 'i', '!', 'l', 'I', '?',
+               '/', '\\', '|', '(', ')', '1', '{', '}', '[', ']',
+               'r', 'c', 'v', 'u', 'n', 'x', 'z', 'j', 'f', 't',
+               'L', 'C', 'J', 'U', 'Y', 'X', 'Z', 'O', '0', 'Q',
+               'o', 'a', 'h', 'k', 'b', 'd', 'p', 'q', 'w', 'm',
+               '*', 'W', 'M', 'B', '8', '&', '%', '$', '#', '@']
 
 for images in os.listdir(image_folder):
     images = Image.open(f'{image_folder}{images}')
@@ -36,4 +41,5 @@ for images in os.listdir(image_folder):
     # below 👇 is an optional code if you want to store the last ascii_art into a text file
 
     # with open("ascii_art.txt", "w") as file:
-    #    file.write(ascii_image_art)
+    #    for arts in ascii_image_art:
+    #        file.write(arts)
