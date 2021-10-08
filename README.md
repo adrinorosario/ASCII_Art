@@ -26,4 +26,6 @@ Before contributing, first study the [public-version.py](https://github.com/adri
 
 You can contribute to this repository in any way, it could be simple thing. Maybe you want the user to input multiple images and have all the converted ascii images stored as different text files- you can create these new features in any of the two files in [ASCII_Art folder](https://github.com/adrinorosario/ASCII_Art/tree/main/ASCII%20Art). You can also contribute by helping to write the [wiki](https://github.com/adrinorosario/ASCII_Art/wiki) or making the `Readme.md` better for this project. The options are endless. But, don't forget to mention me while making a pull request.
 
+# Inspiration - [Zero to Mastery](https://github.com/zero-to-mastery)
+
 # [MIT License](https://github.com/adrinorosario/ASCII_Art/blob/main/LICENSE)✔
