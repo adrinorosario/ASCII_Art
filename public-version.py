@@ -28,5 +28,6 @@ try:
                    for index in range(0, new_pixels_count, new_width)]
     ascii_image = "\n".join(ascii_image)
     print(Style.DIM+ascii_image)
-except:
+
+except ValueError or TypeError:
     print(f"{image_path} image path not found, please check and try again")
