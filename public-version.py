@@ -29,5 +29,5 @@ try:
     ascii_image = "\n".join(ascii_image)
     print(Style.DIM+ascii_image)
 
-except ValueError or TypeError:
+except ValueError:
     print(f"{image_path} image path not found, please check and try again")
