@@ -18,10 +18,4 @@ To use the image filter program, navigate into the [Image Enhancer](https://gith
 python3 image_filter.py images/
 ```
 
-## Contribution
-
-You can contribute in any way you want here. You can create a program to remove the background from all the images and then convert them to ASCII, or you can create a code to create a colorised ASCII ART. There is no limit, you can contribute in any way. 
-
-## License
-
-[MIT](https://github.com/adrinorosario/ASCII_Art/blob/main/LICENSE)
+# [MIT License](https://github.com/adrinorosario/ASCII_Art/blob/main/LICENSE)
