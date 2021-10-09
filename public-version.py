@@ -9,7 +9,7 @@ try:
 
     width, height = image.size
     aspect_ratio = height/width
-    new_width = 125
+    new_width = 120
     new_height = aspect_ratio * new_width * 0.55
     image = image.resize((int(new_width), int(new_height)))
 
@@ -17,10 +17,10 @@ try:
 
     pixels = img.getdata()
 
-    ascii_chars = ['!', '@', '#', '$', '%', '^', '&', '*',
-                   '<', '>', '?', ';', ':', '.', '.', '//', '~', '+', '=']
+    ASCII_CHARS = ['`', '^', ',', ':', ';', 'I', 'l', '!', 'i', '~', '+', '_', '-', '?', ']', '[', '}',
+                   '{', '1', ')', '(', '|', 't', 'f', 'j', 'r', 'x', 'n', 'u', 'v', 'c', 'z', 'X', 'Y', 'U', 'J', 'C', 'L', 'Q', '0', 'O', 'Z', 'm', 'w', 'q', 'p', 'd', 'b', 'k', 'h', 'a', 'o', '*', '#', 'M', 'W', '&', '8', '%', 'B', '@', '$']
 
-    new_pixels = [ascii_chars[pixel//25] for pixel in pixels]
+    new_pixels = [ASCII_CHARS[pixel//25] for pixel in pixels]
     new_pixels = ''.join(new_pixels)
 
     new_pixels_count = len(new_pixels)
@@ -29,5 +29,5 @@ try:
     ascii_image = "\n".join(ascii_image)
     print(Style.DIM+ascii_image)
 
-except ValueError:
+except FileNotFoundError:
     print(f"{image_path} image path not found, please check and try again")
